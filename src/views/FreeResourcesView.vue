@@ -1,3 +1,4 @@
+<!-- This page is to emulate my leadpages free resources page found here https://fatforweightloss.lpages.co/free-resources-thank-you/ -->
 <template>
   <div class="bg-white free-resources-view font-sourceSansPro">
     <div class="max-w-[1200px] mx-auto">
