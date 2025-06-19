@@ -168,7 +168,116 @@
         <div class="mt-8 text-center">
           <button @click="navigateTo('https://fatforweightloss.thrivecart.com/cravings-ebook-bundle/')" class="btn-primary max-w-[800px] mx-auto">Add to cart now</button>
         </div>
+        
       </div>
+        <!-- Testimonial Section -->
+        <div class="section-spacing bg-[rgba(235,239,244,1)] py-16">
+          <div class="container-width">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-700">What Others Are Saying</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+              <!-- Testimonial 1 -->
+              <div class="bg-white rounded shadow p-8 flex flex-col items-start">
+                <div class="flex mb-4">
+                  <span class="text-yellow-400 text-2xl mr-1" v-for="i in 5" :key="i">★</span>
+                </div>
+                <h3 class="font-bold text-xl mb-4">Genuinely meals that a family could eat</h3>
+                <p class="mb-6 text-gray-700">
+                  I purchased this set... and not only is it great value... but the recipies are easy to make, and delicious. And genuinely meals that a family could eat (without knowing it's keto ;).<br>
+                  I hate cooking at the best of times... but these books make it enjoyable and rewarding
+                </p>
+                <span class="font-bold text-gray-800 mt-auto">- Jodie Daniel</span>
+              </div>
+              <!-- Testimonial 2 -->
+              <div class="bg-white rounded shadow p-8 flex flex-col items-start">
+                <div class="flex mb-4">
+                  <span class="text-yellow-400 text-2xl mr-1" v-for="i in 5" :key="i">★</span>
+                </div>
+                <h3 class="font-bold text-xl mb-4">Thank you FatForWeightLoss, you've nailed it!</h3>
+                <p class="mb-6 text-gray-700">
+                  Had been looking for a keto recipe book that was affordable, easy to follow and had the science embedded. Thank you FatForWeightLoss, you've nailed it!
+                </p>
+                <span class="font-bold text-gray-800 mt-auto">- Selina Miler</span>
+              </div>
+              <!-- Testimonial 3 -->
+              <div class="bg-white rounded shadow p-8 flex flex-col items-start">
+                <div class="flex mb-4">
+                  <span class="text-yellow-400 text-2xl mr-1" v-for="i in 5" :key="i">★</span>
+                </div>
+                <h3 class="font-bold text-xl mb-4">The best cookbook I have seen for a while.</h3>
+                <p class="mb-6 text-gray-700">
+                  All the portions you need are shown with the before and after cooking photos, and the ingredients are really simple. After a long day at work this book is your number 1 friend if your interested in keto. Two thumbs up
+                </p>
+                <span class="font-bold text-gray-800 mt-auto">- Silvana Chudleigh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Products Included Section -->
+        <div class="w-full bg-[#f3f6fa] py-16">
+          <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Products Included In The Bundle</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center">
+              <!-- 3 Ingredient Keto Cookbook -->
+              <div class="flex flex-col items-center">
+                <div class="w-48 h-56 rounded-xl shadow mb-4 overflow-hidden bg-white flex items-center justify-center">
+                  <img src="@/assets/images/receipe-books/keto-receipe-book-1.png" alt="3 Ingredient Keto Cookbook" class="object-cover w-full h-full" />
+                </div>
+                <div class="font-bold text-lg text-center mb-2">3 Ingredient Keto<br />Cookbook</div>
+                <div class="text-green-500 font-bold text-xl inline-block align-middle">$4.99</div>
+                <span class="text-gray-400 font-semibold text-lg line-through ml-2 align-middle">$9.99</span>
+              </div>
+              <!-- Keto Recipes Everyone Will Actually Eat -->
+              <div class="flex flex-col items-center">
+                <div class="w-48 h-56 rounded-xl shadow mb-4 overflow-hidden bg-white flex items-center justify-center">
+                  <img src="@/assets/images/receipe-books/keto-receipe-book-2.png" alt="Keto Recipes Everyone Will Actually Eat" class="object-cover w-full h-full" />
+                </div>
+                <div class="font-bold text-lg text-center mb-2">Keto Recipes<br />Everyone Will<br />Actually Eat</div>
+                <div class="text-green-500 font-bold text-xl inline-block align-middle">$7.49</div>
+                <span class="text-gray-400 font-semibold text-lg line-through ml-2 align-middle">$14.99</span>
+              </div>
+              <!-- Keto Bread Cookbook -->
+              <div class="flex flex-col items-center">
+                <div class="w-48 h-56 rounded-xl shadow mb-4 overflow-hidden bg-white flex items-center justify-center">
+                  <img src="@/assets/images/receipe-books/keto-receipe-book-3.png" alt="Keto Bread Cookbook" class="object-cover w-full h-full" />
+                </div>
+                <div class="font-bold text-lg text-center mb-2">Keto Bread<br />Cookbook</div>
+                <div class="text-green-500 font-bold text-xl inline-block align-middle">$4.99</div>
+                <span class="text-gray-400 font-semibold text-lg line-through ml-2 align-middle">$9.99</span>
+              </div>
+              <!-- The Beginners Ketogenic Cookbook -->
+              <div class="flex flex-col items-center">
+                <div class="w-48 h-56 rounded-xl shadow mb-4 overflow-hidden bg-white flex items-center justify-center">
+                  <img src="@/assets/images/receipe-books/keto-receipe-book-4.png" alt="The Beginners Ketogenic Cookbook" class="object-cover w-full h-full" />
+                </div>
+                <div class="font-bold text-lg text-center mb-2">The Beginners<br />Ketogenic Cookbook</div>
+                <div class="text-green-500 font-bold text-xl inline-block align-middle">$7.49</div>
+                <span class="text-gray-400 font-semibold text-lg line-through ml-2 align-middle">$14.99</span>
+              </div>
+              <!-- Keto Holiday Cookbook -->
+              <div class="flex flex-col items-center">
+                <div class="w-48 h-56 rounded-xl shadow mb-4 overflow-hidden bg-white flex items-center justify-center">
+                  <img src="@/assets/images/receipe-books/keto-receipe-book-5.png" alt="Keto Holiday Cookbook" class="object-cover w-full h-full" />
+                </div>
+                <div class="font-bold text-lg text-center mb-2">Keto Holiday<br />Cookbook</div>
+                <div class="text-green-500 font-bold text-xl inline-block align-middle">$4.99</div>
+                <span class="text-gray-400 font-semibold text-lg line-through ml-2 align-middle">$9.99</span>
+              </div>
+            </div>
+            <div class="flex justify-center mt-10">
+              <button
+                @click="navigateTo('https://fatforweightloss.thrivecart.com/cravings-ebook-bundle/')"
+                class="bg-green-500 hover:bg-green-600 text-white font-bold text-xl px-10 py-4 rounded-full shadow transition-colors"
+              >
+                $30 Saving! Add To Cart Now
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- expert section -->
+
+        
     </main>
   </div>
 </template>
@@ -207,4 +316,4 @@ const navigateTo = (url: string) => {
   width: 100%;
   max-width: 100%;
 }
-</style> 
+</style>
